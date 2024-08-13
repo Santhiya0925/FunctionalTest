@@ -17,7 +17,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class TC01 {
 	public static void main(String[] args) throws Exception {
-		
+	   //Start Recording
 	   ScreenRecorderUtil.startRecord("main");	
        WebDriverManager.chromedriver().setup();
        WebDriver driver = new ChromeDriver();
